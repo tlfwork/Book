@@ -1,0 +1,80 @@
+# ==============================================
+# Unity 核心自动生成文件（全平台通用，必忽略）
+# ==============================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# ==============================================
+# Unity 包管理/缓存相关（无需追踪）
+# ==============================================
+# NuGet包缓存（Unity内置NuGet使用）
+Library/PackageCache/
+# 本地包缓存（离线包、自定义包缓存）
+.unitypackage/
+# 包管理临时文件
+Packages/Unity*/*.meta
+Packages/Unity*/Editor.meta
+
+# ==============================================
+# 平台专属构建产物（按开发平台可选择性保留，默认全忽略）
+# ==============================================
+# Windows
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.vcxproj
+*.vcxproj.filters
+*.bak
+# macOS
+*.pbxproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xccheckout
+*.moved-aside
+DerivedData/
+# Android
+[Bb]uild/Android/
+Temp/Android/
+Library/Android/
+# iOS
+[Bb]uild/iOS/
+Temp/iOS/
+Library/iOS/
+# WebGL
+[Bb]uild/WebGL/
+# UWP
+[Bb]uild/UWP/
+# Linux
+[Bb]uild/Linux/
+
+# ==============================================
+# 第三方工具/编辑器缓存（按需忽略）
+# ==============================================
+# VS Code
+.vscode/
+*.code-workspace
+# Rider/IntelliJ
+.idea/
+*.iml
+# Sublime
+*.sublime-project
+*.sublime-workspace
+# Git本身的临时文件
+.gitattributes
+.gitignore~
+# 系统自动生成文件
+.DS_Store*
+Thumbs.db
