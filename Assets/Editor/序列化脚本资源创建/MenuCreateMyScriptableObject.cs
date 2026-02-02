@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class MenuCreate
+public static class MenuCreateMyScriptableObject
 {
-    [MenuItem("Assets/SSSSSSScrObj")]
+    [MenuItem("Assets/ScrObj")]
     public static void CreateMulty()
     {
         MyScriptableObject obj = ScriptableObject.CreateInstance<MyScriptableObject>();
 
-        AssetDatabase.CreateAsset(obj, "Assets/NewMyScriptableObject.asset");
+        AssetDatabase.CreateAsset(obj, "Assets/Book/Ω≈±æ–Ú¡–ªØ/ScriptableObject/DataTwo.asset");
 
         AssetDatabase.SaveAssets();
 
