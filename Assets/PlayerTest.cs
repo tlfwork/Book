@@ -8,8 +8,6 @@ public class PlayerTest : MonoBehaviour
     void Start()
     {
         MyScriptableObject data = Resources.Load<MyScriptableObject>("DataLoad");
-
-        Debug.Log(data.playerHealth);
     }
 
     // Update is called once per frame
