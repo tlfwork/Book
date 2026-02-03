@@ -6,5 +6,5 @@ public class TargetScript : MonoBehaviour
     public float moveSpeed;  
     public int currentHp;
     public bool dead;
-    public string name;
+    public string _name;
 }

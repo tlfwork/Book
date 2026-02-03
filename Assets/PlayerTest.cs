@@ -7,7 +7,9 @@ public class PlayerTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MyScriptableObject data = Resources.Load<MyScriptableObject>("DataLoad");
+        gameObject.AddComponent<PlayerTest>();
+
+        
     }
 
     // Update is called once per frame

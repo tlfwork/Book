@@ -27,7 +27,7 @@ public class CustomerInspector : Editor
 
         _targetScript.dead = EditorGUILayout.Toggle("死亡状态", _targetScript.dead);
 
-        SerializedProperty property = serializedObject.FindProperty("name");
+        SerializedProperty property = serializedObject.FindProperty("_name");
 
         property.stringValue = EditorGUILayout.TextField("姓名", property.stringValue);
 

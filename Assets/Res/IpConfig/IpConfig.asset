@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e689b845d40ee3940be4d054eb54ab89, type: 3}
-  m_Name: DataLoad
+  m_Name: IpConfig
   m_EditorClassIdentifier: 
-  playerHealth: 10
-  moveSpeed: 20
-  jumpSound: {fileID: 0}
+  address: 
+  port: 
