@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
-  m_Name: AssetBundleCollectorSetting
+  m_Script: {fileID: 11500000, guid: 01b3d3fde6899514396008e1e4f6693b, type: 3}
+  m_Name: EffectTextureSchema
   m_EditorClassIdentifier: 
-  ShowPackageView: 0
-  ShowEditorAlias: 0
-  UniqueBundleName: 0
-  Packages: []
+  MaxWidth: 1024
+  MaxHeight: 1024
+  TestStringValues:
+  - test1
+  - test2
+  - test3
